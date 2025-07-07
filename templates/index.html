@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamSphere</title>
+  <meta name="description" content="StreamSphere — Your one-stop hub to watch trending shows or enjoy top music." />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+</head>
+<body>
+  <main class="container">
+    <h1 class="logo">StreamSphere</h1>
+    <p class="tagline">Your one-stop entertainment hub — stream trending shows or relax with your favorite music.</p>
+
+    <div class="button-group">
+      <a href="/watch" class="action-button watch-button" aria-label="Watch Shows">🎬 Watch Shows</a>
+      <a href="/music" class="action-button music-button" aria-label="Listen to Music">🎵 Listen to Music</a>
+    </div>
+
+    <footer class="footer">&copy; 2025 StreamSphere. All rights reserved.</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Core Python packages
+pandas
+numpy
+scikit-learn
+seaborn
+matplotlib
+
+# Web framework (Flask-based)
+flask
+flask-cors
+flask-login
+gunicorn
+
+# Data visualization
+plotly
+
+# Text and NLP (optional for content-based filtering)
+nltk
+beautifulsoup4
+
+# Backend utilities
+python-dotenv
+requests
+
+# Testing
+pytest
+
+# Database
+sqlalchemy
+pymongo
+psycopg2-binary
+
+# Optional: FastAPI stack (if you want to experiment with it)
+fastapi
+uvicorn[standard]
